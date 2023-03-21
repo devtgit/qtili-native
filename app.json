@@ -1,15 +1,15 @@
 {
   "expo": {
     "name": "QTili",
-    "slug": "QTili",
+    "slug": "qtili",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#00A300"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e26c5ee0-3187-4cca-aad4-a912b7997b21"
+      }
+    },
+    "owner": "devterminal"
   }
 }
